@@ -1,0 +1,265 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans hebrew;
+   background: url(img/background.jpg) no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#tabs{
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    top: 0;
+    left: 50%;
+    margin: 0 -470px;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0px 20px 29px -22px #000000;
+    
+    
+}
+#tabs li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    margin-left: 23px;
+    cursor: pointer; 
+    
+    
+}
+#tabs li:hover{
+    color:#F41400;
+    transition: all ease-in-out 0.15s;
+    border-bottom: 2px solid #F41400;
+    
+}
+.content{
+    position: absolute;
+    top:0;
+    width: 100%;
+    right: 0;
+    height: 100%;
+    display: none;
+    overflow-x: hidden;
+}
+.active{
+    display: block;
+}
+p{
+    font-size: 22px;
+    text-align: right;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 800px;
+    margin: 30px auto;
+    padding: 10px ;
+}
+#p1{
+    margin-top: -70px;
+    
+}
+
+h1{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 100px 0;
+    font-size: 30px;
+    
+}
+button{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    font-size: 19px;
+    border: 0;
+    height: 30px;
+    cursor:pointer;
+    background: #e6e6e6;
+}
+button:hover{
+    transition: all ease-in-out 0.2s;
+    color:#F41400;
+    width: 210px;
+    
+}
+span{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    
+}
+.im{
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+    border: solid 2px black;
+    margin: 50px -100%;
+    float: right;
+    background: #ffffff;
+}
+.im span{
+    font-size: 17px;
+}
+.im #first{
+    font-size: 30px;
+    font-weight: 500
+}
+tr{
+    height: 30px;
+}
+td{
+    width: 110px;
+    border: 1px black solid;
+}
+table{
+    width: 550px;
+    margin: 50px auto;
+    
+}
+#targil{
+    margin-top: 100px
+}
+#code, #line2, #line3, #line4, #line5{
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+#line2{
+   padding-left: 45px; 
+    
+}
+#line4{
+   padding-left: 135px; 
+    
+}
+#line5{
+   padding-left: 180px; 
+    
+}
+#t3{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+#targil3{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 30px;
+    
+}
+#line3{
+   padding-left: 90px; 
+}
+#galery img, #galery2 img, #galery3 img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    display: none;
+}
+
+#galery img, #galery3 img:first-child{
+    display: block;
+}
+#galery2 img:first-child{
+    display: block;
+}
+#galery, #galery2, #galery3{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+#back{
+    width: 50px;
+    height: 50px;
+    background: url("img/back.svg") no-repeat;
+    position: absolute;
+    float: left;
+    cursor:pointer;
+    margin-top: 5px;
+}
+#next{
+    width: 50px;
+    height: 50px;
+    background: url("img/next.svg") no-repeat;
+    float: right;
+    cursor:pointer;
+    margin-top: 5px;
+}
+#next:hover{
+    width: 55px;
+    height: 55px;
+    transition: all ease-in-out 0.2s;
+    margin-top: 2.5px;
+}
+#back:hover{
+    width: 55px;
+    height: 55px;
+    transition: all ease-in-out 0.2s;
+    margin-top: 2.5px;
+}
+#buttons{
+    width: 300px;
+    height: 60px;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#galeryconteiner{
+    width: 100%;
+    height: auto;
+}
+#galery-1 , #galery-2{
+    width: 900px;
+    height: 360px;
+    margin:100px auto;
+    text-align: center;
+}
+#galery-1 img{
+    width: 230px;
+    display: inline-block;
+    cursor: pointer;
+}
+#galery-2 img{
+    width: 230px;
+    display:inline-block;
+    cursor: pointer;
+}
+#coment{
+    width: 822px;
+    margin: 0 auto;
+    border: solid 2px #F41400;
+    font-size: 25px;
+    color:#F41400;
+}
+.galspan{
+    margin-top: 50px;
+    margin-bottom: -100px;
+}
+.galspan2{
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+.im2{
+    margin-top: -100px;
+}
+#codecomment{
+    direction: rtl;
+    color: #F41400;
+}

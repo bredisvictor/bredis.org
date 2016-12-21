@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bredis Gallery plugIn</title>
+        <meta name="description" content="Image Gallery framework breedsiallery"/>
+		<meta name="keywords" content="BredisGallery, plugin, framework, image gallery" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="media.css">
+        <link href ="bredisGallery/bredisGallery.css" rel="stylesheet"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src ="bredisGallery/bredisGallery.js"></script> 
+       <script src="main.js"></script>
+    </head>
+    <body>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-87002940-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+        <header>
+           <div id="backHeader"></div>
+            <div id="logo">
+                <h1>
+                    <span id="bredis">
+                    Bredis<sapn id="gallery">Gallery</sapn>
+                    </span>
+                </h1>
+            </div>
+            <p id="mainText">
+                Free jQuery image gallery framework that simplifies the process<br>
+of creating beautiful image galleries for the web and mobile devices. 
+            </p>
+            <div id="galPic">
+               <img src="img/rrr.jpg">
+            </div>
+        </header>
+        <div id="content">
+          <div id="buttons">
+               <span class="topB">DEMO</span>
+               <a class="demo" href="bredisGallery.zip" download>DOWNLOAD</a>
+          </div>
+            <div id="contWrap"> 
+                <span id="contImg"></span>
+                <span id="interface">Comfortable Controls</span>
+            </div>    
+            <div id="padthCont">
+                <div id="navTop">
+                    <span id="closeB"></span>
+                    <span id="downloadB"></span>
+                    <span id="fullScreenBat"></span>
+                </div>
+                <div class="wrapper wa">
+                    <span class="a"></span>
+                    <span class="insText">Close</span>
+                </div>
+                <div class="wrapper wb">
+                    <span class="b"></span>
+                    <span class="insText">Download Image</span>
+                </div>
+                <div class="wrapper wc">
+                    <span class="c"></span>
+                    <span class="insText">Full Screen Mode</span>
+                </div>
+                <div class="wrapper wd">
+                    <span class="d"></span>
+                    <span class="insText">Previous Slide</span>
+                </div>
+                <div class="wrapper we">
+                    <span class="e">3/6</span>
+                    <span class="insText">Image Indicator</span>
+                </div>
+                <div class="wrapper wf">
+                    <span class="f"></span>
+                    <span class="insText">Next Slide</span>
+                </div>
+                <div id="navBottom">
+                    <span id="prevB"></span>
+                    <span id="counterB">3/6</span>
+                    <span id="nextB"></span>
+                </div>
+            </div>
+        </div>
+        <div id="options">
+            <div id="filter"></div>
+                  
+                <div id="responswrap">
+                    <span id="rsvg"></span>
+                    <h2>FULL RESPONSIVE</h2>
+                    <span class="tsvg">Responsive for every device from desctop to phone </span>
+                </div>
+                <div id="touchswrap">
+                    <span id="tsvg"></span>
+                    <h2>TOUCH SUPPORT</h2>
+                    <span class="tsvg">Just swipe to change image on toch devices</span>
+                </div>
+                <div id="fullscreenwrap">
+                    <span id="fsvg"></span>
+                    <h2>DRAG & DROP</h2>
+                    <span class="tsvg">Easy option to select next/prev image without push the buttons</span>
+                </div>
+                <div id="dragwrap">
+                    <span id="dsvg"></span>
+                    <h2>FULL SCREEN MODE</h2>
+                    <span class="tsvg">Exist full screen mode for maximum image resolution </span>
+                </div>
+                 
+        </div>
+        <div id="codeCont">
+            <div id="codeH">
+                <span id="codeHp"></span>
+                <span id="codeHt">Just few lines for install</span>
+            </div>
+            <div id="html">
+              <span id="htmlImg"></span>
+               <span>HTML</span>
+                <div class="htmlcode">
+                    <span class="blue">&lt;link
+                        <span class="green">href =</span><span class="orange">"bredisGallery/bredisGallery.css"</span>
+                        <span class="green">rel=</span><span class="orange">"stylesheet"</span>&gt;
+                    </span>
+                </div>
+                <div class="htmlcode" style="margin-bottom:50px">
+                    <span class="blue">&lt;script
+                        <span class="green">src =</span><span class="orange">"bredisGallery/bredisGallery.js"</span>&gt;&lt;/script&gt;
+                    </span>
+                </div>
+                <span id="jsImg"></span>
+                <span>JavaScript</span>
+                <div class="htmlcode">
+                    <span class="black">bredisGallery.</span>
+                    <span class="purple">start</span>
+                    <sapn class="black">(</sapn>
+                    <span class="orange">"#yourIdName"</span>
+                    <sapn class="black">)</sapn>
+                </div>
+            </div>
+        </div>
+        <div id="hidePicsHere">
+            <img src="gImg/chaperone.jpg" alt="">
+            <img src="gImg/apple.jpg" alt="">
+            <img src="gImg/dream.jpg" alt="">
+            <img src="gImg/estany.jpg" alt="">
+            <img src="gImg/italy.jpg" alt="">
+            <img src="gImg/lake.jpg" alt="">
+            <img src="gImg/little.jpg" alt="">
+            <img src="gImg/owl.jpg" alt="">
+            <img src="gImg/persian.jpg" alt="">
+            <img src="gImg/pyramid.jpg" alt="">
+        </div>
+        <footer>
+            <div id="ready">
+                <div id="ready2">
+                    <span>Ready to try BredisGallery?</span>
+                    <a class="fbutton secb" href="bredisGallery.zip" download>DOWNLOAD</a>
+                </div>
+            </div>
+            <div id="footer">
+                &copy;Copyright and developed by - <a href="//bredis.org">Bredis</a>
+            </div>
+        </footer>
+    </body>
+</html>

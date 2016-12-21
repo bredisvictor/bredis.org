@@ -1,0 +1,353 @@
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .forms{
+        width:  600px;
+        margin-left: -300px
+    }
+    .forms input{
+        margin-right: 10px;
+        width: 180px;
+    }
+    .forms textarea{
+        width: 560px;
+        margin-right: 10px;
+    }
+    .forms p{
+        margin-right: 10px;
+    }
+    #meeting .button{
+        width:150px;
+        left: 25px;
+    }
+    #helping .button{
+        width:150px;
+        margin-left: 25px;
+    }
+}
+@media only screen and (max-width : 870px) {
+    .tabs__caption{
+        width: 439.5px;
+        margin-left: -218.75px;
+        font-size: 1.19em;
+    }
+    .tabs__caption li{
+        width: 145.1666666666667px;
+    }
+    .tabs__content.active{
+        width: 437.5px;
+        margin-left: -218.75px;
+    }
+    .first{
+        margin-left: 12.5px;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #developed{
+        font-size: 1em;
+    }
+    #omanski{
+        height: 800px;
+        background-size: 800px 900px;
+    }
+    #meeting{
+        height: 800px;
+        background-size: 1100px 800px;
+    }
+    #helping{
+        height: 800px;
+        background-size: 1100px 800px;
+    }
+    #omanski .text{
+        width: 100%;
+        height: auto;
+    }
+    .omanski_heb{
+        font-size: 3.5em;
+        margin-top: 6px
+    }
+    .omanski_en{
+        font-size: 5.9em;
+    }
+    /*form*/
+    .forms{
+        width:  400px;
+        margin-left: -200px;
+        margin-top: 200px
+    }
+    .forms input{
+        margin-right: 0px;
+        width: 400px;
+    }
+    .forms textarea{
+        width: 400px;
+        margin-right: 0px;
+    }
+    .forms p{
+        margin-right: 0px;
+    }
+    #meeting .button{
+        width:150px;
+        left: -5px;
+    }
+    #helping .button{
+        width:150px;
+        margin-left: 0;
+    }
+    .meet_text{
+        font-size: 4.5em;
+    }
+    .work_folder{
+        font-size: 4.5em;
+    }
+    .alex_text{
+        margin-bottom: 30px;
+    }
+    #developed p{
+        height: 50px;
+        line-height: 50px;
+        width: auto;
+        font-size: 0.8em;
+        font-weight: 100;
+    }
+    #p_bredis{
+    margin-left: 100px;
+    }
+    #p_omanski{
+    float: right;
+    margin-right: 100px;
+    }
+    .img{
+         -webkit-filter: grayscale(0);
+         filter: grayscale(0);
+    }
+    }
+    @media only screen and (max-width : 640px) {
+        #omanski .text{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        left:0;
+        }
+        #omanski{
+            background-size:800px 900px;
+        }
+        #logo_text{
+            background: #cecece;
+        }
+        #text .steve{
+            font-size: 0.8em;
+        }
+        .alex_text{
+            text-align: center;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        #p_bredis{
+        margin-left: 50px;
+        }
+        #p_omanski{
+        float: right;
+        margin-right: 50px;
+       }
+    }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    #meeting{
+        height: 600px;
+        background-size: cover;
+        background-image: url(img/img_phone/Ascendris_min.jpg);
+        background-position: center center;
+    }
+    #helping{
+        height: 600px;
+        background-size: 1100px 800px;
+        background-attachment: inherit;
+    }
+    #omanski{
+        height: 600px;
+        background-size: cover;
+        background-image: url(img/img_phone/surface_min.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #omanski .text{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        left:0;
+        top:230px;
+    }
+    .omanski_heb{
+        font-size: 2.7em;
+        font-weight: 500;
+        
+    }
+    .omanski_en{
+        font-size: 4.75em;
+        font-weight: 500;
+    }
+    /*form*/
+    .forms{
+        width:  270px;
+        margin-left: -135px;
+        left: 50%;
+        margin-top: 80px;
+    }
+    .forms input{
+        margin-right: 0px;
+        width: 100%;
+    }
+    .forms textarea{
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 15px
+    }
+    .forms p{
+        margin-right: 0px;
+        margin-top: 10px
+    }
+    #meeting .button{
+        width:150px;
+        margin-left: 0;
+    }
+    #helping .button{
+        width:150px;
+        margin-left: 0;
+    }
+    .meet_text{
+        font-size: 3.5em;
+        top:30px;
+    }
+    .work_folder{
+        font-size: 3.5em;
+    }
+    #text .steve{
+        font-size: 0.55em;
+        line-height: 50px
+    }
+    #text{
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    #alex_text{
+        font-size: 1.3em;
+        margin-bottom: 30px;
+    }
+    #logo_text{
+        padding-bottom: 10px;
+    }
+    #developed p{
+        font-size: 0.8em;
+        height: 50px;
+        line-height: 50px
+    }
+    #developed p img{
+        width: 12px;
+    }
+    #p_bredis{
+    margin-left: 10px;
+    }
+#p_omanski{
+    float: right;
+    margin-right: 10px;
+   }
+    .tabs__caption{
+        width: 304px;
+        margin-left: -152px;
+        font-size: 1em;
+    }
+    .tabs__caption .active{
+        font-size: 1.1em;
+    }
+    .tabs__caption li{
+        width: 100px;
+    }
+    .tabs__content.active{
+        width: 302px;
+        margin-left: -152px;
+    }
+    .first{
+        margin-left:26px ;
+    }
+    .img{
+        margin-left:26px ;
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+        width: 250px;
+        height: 250px;
+    }
+    #galerys{
+        padding-bottom: 30px;
+    }
+    .img img{
+    width: auto;
+    height: 250px;
+    }
+    .work_folder{
+        padding-bottom: 10px;
+    }
+#arrow2{
+    margin-left: 0;
+}
+#arrow2 a{
+    width:auto;
+    line-height: 23px;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+#arrow2 img{
+    width: 26px;
+    margin-right: 5px;
+}
+    .arrow{
+      margin-left: -20px
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+    .omanski_heb{
+        font-size: 2em;
+    }
+    .omanski_en{
+        font-size: 3.5em;
+    }
+    .tabs__content.active{
+        width: 250px;
+        margin-left: -125px;
+    }
+    .img{
+        width: 200px;
+        margin-left: 25px;
+        height: 200px;
+    }
+    .img img{
+        width: 300px;
+        height: auto;
+    }
+    .tabs__caption{
+        width: 252px;
+        margin-left: -125px;
+        font-size: 0.8em;
+    }
+    .tabs__caption li{
+        width: 82.66666666666667px;
+    }
+    .forms{
+        width: 230px;
+        margin-left: -115px;
+        padding: 0;
+        left: 50%;
+    }
+}
+    #meeting .button{
+        margin-left: 0;
+    }
+    #developed p{
+        font-size: 0.6em
+    }
+    #helping .meet_text{ 
+        font-size: 2.8em
+    }
+}

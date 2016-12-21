@@ -1,0 +1,510 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background: #252525;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Start*/
+#menu{
+    height: 40px;
+    width: 40px;
+    background:rgba(116, 116, 116, 0.51);
+    float: right;
+    display: none;
+    padding: 0;
+}
+#menu.fixed{
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    display: block;
+    z-index: 999;
+}
+/*Omanski*/
+#omanski{
+    background-image:url(img/surface-945444.jpg);
+    background-size: cover;
+    background-position:center top;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    overflow:hidden;
+}
+#omanski .text{
+    height: auto;
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 300px;
+    padding: 0;
+}
+.omanski_heb{
+    padding: 0;
+    margin-top: 15px;
+    font-family: Open Sans hebrew;
+    font-size: 5.4em;
+    font-weight: 100;
+    text-align: center;
+}
+.omanski_en {
+    font-size: 9.3em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Code-Pro-Light-Demo;
+    font-weight:400;
+}
+#arrow2{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    position: absolute;
+}
+#arrow2 a{
+    color: #fff;
+    display: block;
+    width: 160px;
+    height: 50px;
+    outline: none;
+    text-align: left;
+    line-height: 30px;
+    text-decoration: none;
+    font-family: Open Sans hebrew;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+#arrow2 img{
+    width: 33px;
+    float: left;
+    margin-right: 10px
+}
+/*Omanski end*/
+/*Text*/
+#text {
+    height: auto;
+    width: 100%;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    font-size: 2.2em;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-weight: 100;
+}
+.steve{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    line-height: 70px;
+}
+.steve span{
+    margin-top: 30px;
+    display: block;
+    font-size: 0.7em;
+    font-style: normal;
+    font-weight: 500;
+}
+#logo_text {
+    height: auto;
+    width: 100%;
+    background-image: url(img/Facebook_like_thumb.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:400px;
+    background-position: left;
+    padding-bottom: 60px;
+    background-color: #c7c7c7;
+    overflow: hidden;
+}
+.logo{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-image: url(img/me.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: center;
+    position: relative;
+    left: 50%;
+    margin-left: -80px;
+    top:40px;
+}
+#alex_text{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 80px;
+    height: auto;
+    color: #fff;
+    font-family:Open Sans hebrew; 
+    font-size: 1.9em;
+    font-weight: 100;
+    line-height: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.trumot_text{
+    font-family:Open Sans hebrew;
+    font-style: normal;
+}
+.trumot_text h1{
+    font-weight: 300;
+    font-size: 1.7em;
+    margin-bottom: 50px;
+}
+.trumot_text h2{
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.trumot_text h3{
+    font-weight: 300;
+    font-size: 1.15em;
+    margin-bottom: 50px;
+}
+/*Text end*/
+/*Galery*/
+#galerys {
+    width:100%;
+    height: auto;
+    background:#fff;
+    padding-bottom: 200px;
+    position: relative;
+    overflow: auto;
+}
+.work_folder{
+    font-family:Open Sans hebrew ;
+    font-size: 5.5em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-bottom: 200px;
+}
+.tabs__content {
+  display: none; 
+}
+.tabs__content.active {
+    display: block;
+    width: 862.5px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    margin-left: -431.25px;
+    border-bottom: 1px solid #bababa;
+    border-left: 1px solid #bababa;
+    border-right: 1px solid #bababa;
+    overflow: auto;
+    top: -1px;
+    padding-bottom: 12.5px
+}
+.tabs__caption{
+    position: relative;
+    height: 52px;
+    width: 864.5px;
+    left:50%;
+    margin-left:-431.25px;
+    padding:0;
+    font-family: Open Sans hebrew;;
+    font-size: 1.4em;
+}
+.tabs__caption .active{
+    background: #fff;
+    font-size: 1.3em;
+    border-bottom: none;
+}
+.tabs__caption li{
+    height: 50px;
+    width: 286.8333333333333px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    background: #eaeaea;
+    border-right: 1px solid #bababa;
+    border-bottom: 1px solid #bababa;
+    border-top: 1px solid #bababa;
+}
+.tabs__caption li:first-child{
+    border-left: 1px solid #bababa;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    background: #c3c3c3;
+    display: inline-block;
+    float: left;
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    vertical-align: top;
+    cursor: pointer;
+}
+.first{
+    margin-left: 12.5px;
+}
+.img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+.img img{
+    width: auto;
+    height: 200px;
+}
+/*Galery end*/
+/*Meeting*/
+#meeting {
+    height: 1000px;
+    width: 100%;
+    background-image: url(img/Ascendris-Business-Centre-0-min.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center center;
+}
+#helping{
+    height: 1000px;
+    width: 100%;
+    background-image: url(img/papper_people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.meet_text{
+    font-family:Open Sans hebrew ;
+    font-size: 5.5em;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: #fff;
+}
+.forms{
+    margin-top: 250px;
+    width: 950px;
+    font-family: Open Sans hebrew;
+    position: relative;
+    left: 50%;
+    margin-left: -475px;
+}
+.forms input{
+    background: none;
+    color:#fff;
+    direction: rtl;
+    float: right;
+    border:0px;
+    border-bottom: 3px solid #fff;
+    width: 250px;
+    margin-right: 50px;
+    font-family: Open Sans hebrew;
+    font-size: 2em;
+    padding: 0;
+    outline: none;
+    list-style: none;
+}
+.forms p{
+    color:#b7b7b7;
+    float: right;
+    text-align: right;
+    font-family: Open Sans hebrew;
+    font-size: 2em;
+    margin-right: 50px;
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+}
+.forms textarea{
+    direction: rtl;
+    resize: none;
+    float: right;
+    background: none;
+    border:0px;
+    border-bottom: 3px solid #fff;
+    margin-right: 50px;
+    width: 850px;
+    margin-top: 25px;
+    font-family: Open Sans hebrew;
+    font-size: 2em;
+    color: #fff;
+    outline: none;
+    list-style: none;
+}
+#meeting .button{
+    position:relative;
+    outline: none;
+    list-style: none;
+    color:#fff;
+    width:170px;
+    float:left;
+    left:43px;
+    margin-top: 45px;
+    border: 3px solid #fff;
+}
+#meeting .button:hover{
+    background: #fff;
+    color: black;
+}
+#helping .button{
+    outline: none;
+    list-style: none;
+    color:#fff;
+    width:170px;
+    float:left;
+    margin-left:46px;
+    margin-top: 45px;
+    border: 3px solid #fff;
+}
+#helping .button:hover{
+    background: #fff;
+    color: black;
+}
+input{
+    background-color: none !important;
+    outline: none;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+    background: none !important;
+   } 
+input[type="text"]:-ms-input-placeholder {
+    color: #fff;
+    background: none !important;
+   } 
+input[type="email"]:-ms-input-placeholder {
+    color: #fff;
+    background: none !important;
+   } 
+input[type="text"]::-moz-placeholder {
+    color: #fff;
+    background: none !important;
+   }
+input[type="text"]:-moz-placeholder {
+    color: #fff;
+    background: none !important;
+}
+input[type="email"]::-webkit-input-placeholder {
+    color: #fff;
+    background: none !important;
+   } 
+input[type="email"]::-moz-placeholder {
+    color: #fff;
+    background: none !important;
+   }
+input[type="email"]:-moz-placeholder {
+    color: #fff;
+    background: none !important;
+   }
+textarea::-webkit-input-placeholder {
+    color: #fff;
+    background: none !important;
+   } 
+textarea:-ms-input-placeholder {
+    color: #fff;
+    background: none !important;
+   } 
+textarea::-moz-placeholder {
+    color: #fff;
+    background: none !important;
+   } 
+textarea:-moz-placeholder {
+    color: #fff;
+    background: none !important;
+   } 
+/*Meeting end*/
+/*Footer*/
+#developed {
+    width: 100%;
+    background: #252525;
+    font-size: 1.4em;
+}
+#developed p{
+    display: inline-block;
+    color: #989898;
+    height: 50px;
+    width: auto;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+#p_bredis{
+    margin-left: 100px;
+}
+#p_omanski{
+    float: right;
+    margin-right: 100px;
+}
+#developed p img{
+        width: 12px;
+    }
+.arrow{
+   position: absolute;
+    left:50%;
+    margin-left: -50px;
+}
+.arrow a{
+    color: #989898;
+    width: 180px;
+    height: auto;
+    outline: none;
+    text-align: left;
+    line-height: 30px;
+    font-family:Open Sans hebrew;;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+}
+/*Footer end*/

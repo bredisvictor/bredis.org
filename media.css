@@ -1,0 +1,282 @@
+
+@media only screen and (max-width : 1500px) {
+ 
+   
+    
+}
+@media only screen and (max-width : 1220px) {
+    #workinner{
+        width:600px;
+        height: 900px;
+    }
+    #comtactsmainwrapper{
+        width:600px;
+    }
+    #picontacts{
+        width: 200px;
+    }
+    #piform{
+        width:400px;
+    }
+    #footercont{
+        width:600px;
+    }
+    
+    
+}
+
+@media only screen and (max-width : 1200px) {
+    #aboutcontent{
+        width: 950px;
+        height: 330px;
+        
+    }
+    
+
+    #abiutsection{
+        width: 300px;
+        margin-left: 55px;
+    }
+    #picsection{
+        
+        width: 300px;
+        
+   
+    }
+    #personalinfosection{
+    width: 300px;
+    
+    }
+    
+    
+    
+   
+}
+
+
+@media only screen and (max-width : 992px) {
+    #aboutcontent{
+        width: 100%;
+        height: 800px;
+        
+    }
+    
+
+    #abiutsection{
+        width: 400px;
+        margin-left: 55px;
+        top:300px;
+        left:0;
+        right:0;
+        margin: auto;
+        
+        
+    }
+    #abiutsection>p>span{
+        color: #D60270;
+        display: block;
+        margin-bottom: -50px;
+    }
+    #abiutsection>p{
+    text-align: center;
+    }
+    #abiutsection>span{
+    
+    margin-bottom: 30px;
+}
+    #picsection{
+        
+        width: 200px;
+        height: 250px;
+        left:0;
+        right:0;
+        margin:auto;
+        overflow: hidden;
+    }
+    #personalinfosection{
+        width: 400px;
+        top:550px;
+        left:0;
+        right:0;
+        margin: auto;
+    }
+    #personalinfosection>p{
+    text-align: center;
+    }
+    #personalinfosection>span{
+    
+        margin-bottom: 30px;
+    }
+    
+    #personalinfosection>p>#myname{
+        display: block;
+        margin-bottom: -50px;
+    }
+      
+    #skillsmain{
+        width: 400px;
+        left:0;
+        right:0;
+        margin: auto;
+        height: 440px;
+        margin-top:150px;
+            
+    }
+    
+    #skillsmain>p{
+        top:-50px;
+        width: 100%;
+        border:none;
+        margin-left: -100px;
+        
+    }
+    #skillsinner{
+        top:160px;
+        left: 130px;
+        width: 250px
+    }
+    
+}
+
+
+@media only screen and (max-width : 768px) {
+    #logo{
+        width:400px;
+        font-size:35px;
+    }
+    #logo>span{
+        font-size:13px;
+        margin-top:-30px;
+    }
+    
+}
+    
+
+@media only screen and (max-width : 640px) {
+    #workinner{
+        width:300px;
+        height: 1800px;
+    }
+    
+    #piadress, #piphone, #piwebsite{
+        margin: 0 auto;
+    }
+    
+    #comtactsmainwrapper{
+        width:300px;
+        height: 870px;
+    }
+    #picontacts{
+        width: 200px;
+        left:0;
+        right:0;
+        margin:auto;
+        
+    }
+    #piform{
+        width:300px;
+        top:450px;
+        left: 0;
+        margin: auto;
+    }
+    #footercont{
+        width:250px;
+    }
+    
+}
+@media only screen and (max-width : 480px) {
+    #logo{
+        width:275px;
+        font-size:25px;
+    }
+    #logo>span{
+        font-size:12px;
+        margin-top:-60px;
+        letter-spacing: 2px;
+    }
+    
+    .aboutheader>span{
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding-top: 10px;
+    }
+    
+    .aboutheader>h2{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    #aboutcontent{
+        width: 100%;
+        height: 800px;
+        
+    }
+    
+
+    #abiutsection{
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        
+        
+    }
+    #abiutsection>p>span{
+        
+        margin-bottom: -50px;
+    }
+    
+    
+    #personalinfosection{
+        width: 100%;
+        position: relative;
+        top: auto;
+        margin-top: 350px
+        
+    }
+    
+    
+    
+    #skillsmain{
+        width: 250px;
+        height: 830px
+            
+    }
+    
+    #skillsmain>p{
+        top:-50px;
+        width: 100%;
+        border:none;
+        margin-left: -100px;
+        
+    }
+    #skillsinner{
+        top:190px;
+        left: 0;
+        width: 250px;
+        height: 640px
+    }
+    .scales{
+        margin-top: 50px;
+    }
+    
+    .scalesspancss3,.scalesspanjavascript,.scalesspanjquery,.scalesspanangularjs,.scalesspannodejs,.scalesspanphp,.scalesspanmysql,.scalesspanhtml5,.scalesspannosql{
+        top: -40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    
+}
+
+@media only screen and (max-width : 380px) {
+   #piform{
+        width:250px;
+        top:450px;
+       
+    }
+}
+
+

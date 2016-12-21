@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500);
+
+.cl{
+    display: inline-block;
+    transition: all 1.5s ease-in-out;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: black;
+    margin: 0 445px;
+    border-radius: 20%;
+    margin-top:-25px;
+}
+#first{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    border: 1px black solid;
+    transition: background 1.5s ease-in-out;
+    
+}
+#buttons{
+    position: fixed;
+    width:636px;
+    height: 50px;
+    left:50%;
+    margin-left:-318px;
+    margin-top:227px;
+    z-index: 1;
+}
+#autoplay{
+    width: 200px;
+    height:50px;
+    background: black;
+    color:#fff;
+    margin-left: 115px;
+    font-family: 'Roboto Mono' ;
+    font-size: 1.1em;
+    transition: all 0.5s linear;
+    border:0; 
+    
+}
+#autoplay:hover{
+    background:#fff;
+    color:black;
+    font-weight: 500;
+    border: 1px solid black;
+    
+}
+#slideshow{
+    width: 200px;
+    height:50px;
+    background: black;
+    color:#fff;
+    font-family: 'Roboto Mono' ;
+    font-size: 1.1em;
+    transition: all 0.5s linear;
+    border:0; 
+    
+}
+#slideshow:hover{
+    background:#fff;
+    color:black;
+    font-weight: 500;
+    border: 1px solid black;
+}
+#previousSlide{
+    width: 200px;
+    height:50px;
+    background: black;
+    color:#fff;
+    font-family: 'Roboto Mono' ;
+    font-size: 1.1em;
+    transition: all 0.5s linear;
+    border:0; 
+    margin-left:63px;
+    outline: none;
+   
+}
+#previousSlide:hover{
+    background:#fff;
+    color:black;
+    font-weight: 500;
+    border: 1px solid black;
+}
+#mix{
+    width: 100px;
+    height:50px;
+    background: black;
+    color:#fff;
+    font-family: 'Roboto Mono' ;
+    font-size: 1.1em;
+    transition: all 0.5s linear;
+    border:0; 
+    outline: none;
+}
+#mix:hover{
+    background:#fff;
+    color:black;
+    font-weight: 500;
+    border: 1px solid black;
+}
+#nextSlide{
+    width: 200px;
+    height:50px;
+    background: black;
+    color:#fff;
+    font-family: 'Roboto Mono' ;
+    font-size: 1.1em;
+    transition: all 0.5s linear;
+    border:0; 
+    outline: none;
+}
+#nextSlide:hover{
+    background:#fff;
+    color:black;
+    font-weight: 500;
+    border: 1px solid black;
+}

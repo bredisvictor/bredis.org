@@ -1,0 +1,108 @@
+
+.conteiner{
+    width: 1000px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+}
+.click{
+    width: 1000px;
+    position: relative;
+    left:50%;
+    margin-left: -500px;
+    top:300px
+}
+.click button{
+    position: absolute;
+    width: 500px;
+    margin: 0 250px;
+    height: 40px;
+    background: black;
+    color:#ffac29;
+    font-size: 19px;
+    transition: all 0.5s ease-in-out; 
+    cursor:pointer;
+    border-style: none;
+    border: 1px solid #ffac29; 
+}
+.click button:hover{
+    background: #ffac29;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.showNum{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+    border: 2px solid black;
+    background: #ffac29;
+}
+.side {
+    width: 150px;
+    height:150px;
+    position: absolute;
+    border: 1px black solid;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    transform-origin: 50% 50% -75px;
+}
+#cube{
+    position:relative;
+    width:150px;
+    height:150px;
+    transform-origin: 50% 50% -75px;
+    transform-style: preserve-3d;
+    transform: rotate3d(0,1,0,0deg);
+    transition: all 0.7s ease-in-out;
+    left: 250px;
+    top:150px; 
+}
+#cube2{
+    position:relative;
+    width:150px;
+    height:150px;
+    transform-origin: 50% 50% -75px;
+    transform-style: preserve-3d;
+    transform: rotate3d(0,1,0,270deg);
+    transition: all 0.7s ease-in-out;
+    float: right;
+    right: 250px
+}
+#wrapper{
+    perspective: 900px;
+    perspective-origin: center;
+   
+}
+#side1{
+    background: url(img/dice1.svg)#ffac29 no-repeat;
+    background-size: cover;
+    transform: rotateY(0deg);
+}
+#side2{
+    
+    background: url(img/dice2.svg)#ffac29 no-repeat;
+    background-size: cover;
+    transform: rotateY(90deg);
+}
+#side3{
+    background: url(img/dice3.svg)#ffac29 no-repeat;
+    background-size: cover;
+    transform: rotateY(-90deg);
+}
+#side4{
+    background: url(img/dice4.svg)#ffac29 no-repeat;
+    background-size: cover;
+    transform: rotateX(90deg);
+}
+#side5{
+    background: url(img/dice5.svg)#ffac29 no-repeat;
+    background-size: cover;
+    transform: rotatex(-90deg);
+}
+#side6{
+    background: url(img/dice6.svg)#ffac29 no-repeat;
+    background-size: cover;
+    transform: rotateY(180deg);
+}

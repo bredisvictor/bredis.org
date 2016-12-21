@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic-Tac-Toe</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <div id="conteiner">
+              <div id="block">
+                  <div id="start">
+                    <span id="show">Enter your name</span>
+                    <input type="text" id="name1" placeholder="First player name:">
+                    <input type="text" id="name2" placeholder="Second player name:">
+                    <button onclick="start()" id="startbutt">Start</button>
+                  </div>
+              </div>
+              <table id="tables">
+                  <tr>
+                      <th id="p1"></th>
+                      <th>Player turn</th>
+                      <th id="p2"></th>
+                  </tr>
+                  <tr>
+                      <td id="scorep1"></td>
+                      <td id="play"></td>
+                      <td id="scorep2"></td>
+                  </tr>
+              </table>
+               <div id="field">
+                   <div class="blocks" onclick="XorO1()" id="q1"><img id="i1" src=""></div>
+                   <div class="blocks" onclick="XorO2()" id="q2"><img id="i2" src=""></div>
+                   <div class="blocks" onclick="XorO3()" id="q3"><img id="i3" src=""></div>
+                   <div class="blocks" onclick="XorO4()" id="q4"><img id="i4" src=""></div>
+                   <div class="blocks" onclick="XorO5()" id="q5"><img id="i5" src=""></div>
+                   <div class="blocks" onclick="XorO6()" id="q6"><img id="i6" src=""></div>
+                   <div class="blocks" onclick="XorO7()" id="q7"><img id="i7" src=""></div>
+                   <div class="blocks" onclick="XorO8()" id="q8"><img id="i8" src=""></div>
+                   <div class="blocks" onclick="XorO9()" id="q9"><img id="i9" src=""></div>
+               </div>
+            </div>
+            <script src="main.js" ></script>
+        </body>
+</html>

@@ -1,0 +1,406 @@
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #contWrap {
+    width: 600px;
+    
+    }
+    
+    #contImg {
+    
+    left: 95px;
+    }
+    
+    #codeH{
+        width: 600px;
+        
+        
+    }
+    #codeCont{
+        width: 600px;
+    }
+   #codeHp{
+       left: 80px; 
+    }
+    .htmlcode{
+        width: 600px;
+    }
+    #htmlImg{
+        left: 220px;
+    }
+    #jsImg{
+        left: 200px;
+    }
+   #mainText{
+        width: 600px;
+        font-size:23px;
+    }
+    
+    #buttons {
+    width: 600px;
+    }
+    .topB {
+    
+    margin-left: 50px;
+    
+    
+    }
+    .topB:hover{
+    
+    width: 250px;
+    margin-left: 25px;
+    
+    }
+    .demo{
+        margin-right: 50px;
+    }
+    .demo:hover{
+    margin-right: 25px;
+    width: 250px;
+    }
+    
+    
+    #padthCont{
+    
+    width:600px;
+    }
+    
+    #rsvg, #tsvg, #fsvg, #dsvg{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    
+    
+   }
+    #responswrap, #touchswrap, #fullscreenwrap,#dragwrap{
+    
+    width: 50%;
+    
+    margin-top: 10px;
+    
+    
+    }
+    #responswrap, #touchswrap{
+        margin-top: 40px;
+    }
+    #options h2{
+        font-size: 17px;
+    }
+    .tsvg{
+        font-size: 16px;
+    }
+    
+    #ready2{
+        width: 600px;
+    }
+    .secb{
+        margin: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    
+    
+}
+    
+
+@media only screen and (max-width : 640px) {
+        
+    #mainText{
+        width: 100%;
+        font-size:20px;
+        
+    }
+    #interface{
+        margin-left: 10px;
+        font-size: 25px
+    }
+    
+    #contWrap {
+    width: 400px;
+    margin-top: 30px;
+    
+        
+    }
+    
+    #contImg {
+        width: 45px;
+        height: 45px;
+        left: 10px;
+        
+    }
+    
+    
+    
+    
+    
+    #buttons {
+        width: 100%;
+        margin: 0;
+    }
+    .topB {
+        display: block;
+        margin: 0 auto;
+    }
+    .topB:hover{
+    
+    width: 200px;
+    margin-left:auto;
+    
+    }
+    .demo{
+        
+        display: none;
+    }
+    
+    #padthCont{
+    width: 450px;
+    
+    }
+    
+    #navTop{
+    
+    right:0px;
+    
+   }
+    .insText{
+        font-size: 19px;    
+    }
+    
+    
+    #rsvg, #tsvg, #fsvg, #dsvg{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    
+    
+   }
+    #responswrap, #touchswrap, #fullscreenwrap,#dragwrap{
+    
+    width: 100%;
+    
+    margin-top: 30px;
+    height: 100px
+    
+    }
+    
+    #options h2{
+        font-size: 15px;
+    }
+    .tsvg{
+        font-size: 15px;
+    }
+    #options{
+        height: 590px;
+        margin-top: 0;
+    }
+    
+    #codeH{
+        width: 400px;
+        padding-left: 30px;
+        margin-top: 0;
+        
+    }
+    #codeHt{
+        font-size: 25px
+    }
+    #codeCont{
+        width: 400px;
+        margin: 50px auto;
+        
+    }
+   #codeHp{
+       left: 0; 
+    }
+    .htmlcode{
+        width: 400px;
+        
+    }
+    #htmlImg{
+        left: 120px;
+    }
+    #jsImg{
+        left: 100px;
+    }
+    .blue, .gree, .orange, .black, .purple{
+    font-size: 15px;
+    } 
+    
+    #ready2{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .secb{
+        display: block;
+        margin: 0 auto;
+        
+    }
+    #footer{
+        padding: 0;
+    }
+}
+   
+	
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    #ready2 span{
+        font-size: 20px;
+    }
+    #mainText{
+        
+        font-size:17px;
+    }
+    #bredis{
+    
+    font-size: 40px;
+    }
+    #bredis #gallery{
+    
+    font-size: 45px;
+        
+    }    
+    #logo{
+    
+    width: 260px
+    }
+    
+    #interface{
+        
+        font-size: 20px;
+    }
+    
+    #contWrap {
+    width: 300px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    
+        
+    }
+    
+    #contImg {
+        width: 40px;
+        height: 40px;
+        left: 15px;
+        
+    }
+    
+    #padthCont{
+    width: 270px;
+    
+    }
+    
+    
+    #codeH{
+    width: 300px;
+    padding-left: 30px;
+    box-sizing: border-box;
+        
+    }
+    #codeHt{
+        font-size: 20px;
+    }
+    #codeCont{
+       width: 100%;
+    }
+    #html > span{
+        font-size: 19px
+    }
+   #codeHp{
+       width: 45px;
+        height: 45px; 
+    }
+    .htmlcode{
+        width: 100%;
+        
+        
+    }
+    #htmlImg{
+        left: 120px;
+    }
+    
+    #jsImg{
+        left: 95px;
+        top:230px
+    }
+    .blue, .gree, .orange, .black, .purple{
+    font-size: 14px;
+    } 
+    .secb{
+        display: none;
+        
+        
+    }
+    #ready2{
+        
+        margin-top: auto;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+   #contWrap {
+    width: 300px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    
+        
+    }
+    
+    #contImg {
+        width: 40px;
+        height: 40px;
+        left: 5px;
+        
+    }
+    
+    #htmlImg{
+        left: 60px;
+    }
+    #jsImg{
+        left: 55px;
+    }
+    .blue, .gree, .orange, .black, .purple{
+    font-size: 11px;
+    }
+    
+    #codeHt{
+        font-size: 19px;
+        
+    }
+    
+   #codeHp{
+       width: 45px;
+        height: 45px; 
+       
+    }
+    
+    #interface{
+        
+        font-size: 19px;
+    }
+    
+   
+    
+    #contImg {
+        width: 40px;
+        height: 40px;
+        left: 15px;
+        
+    }
+    #codeH{
+    width: 100%;
+    
+    }
+    
+    #contWrap {
+    width: 100%;
+    }
+    
+}
+
+
